@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { headerLinks } from "../constants";
 
 import {Hamburger } from 'phosphor-react'
+import { headerLinks } from "../constants";
 
 export function Header() {
   const [active, setActive] = useState('Business Plan');
