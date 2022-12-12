@@ -43,7 +43,7 @@ export const CardsDetails = [
     input: 'Read more'
   },
 
-  {
+  /* {
     background: '/rectangle2.png',
     button: {
       name: 'Resources',
@@ -73,5 +73,5 @@ export const CardsDetails = [
     title: 'Convene an International Partnership for development.',
     content: 'Helping nations achieve Net Zero and creating new commercial opportunities',
     input: 'Read more'
-  },
+  }, */
 ]

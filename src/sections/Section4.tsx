@@ -4,7 +4,7 @@ import { Button } from "../components/Button";
 
 export function Section4() {
   return (
-    <div className='h-[54rem] w-full bg-[url("/image4.jpg")] bg-cover bg-no-repeat bg-bottom  relative x-sm:mt-24'>
+    <div className='h-[54rem] w-full bg-[url("/image4.jpg")] bg-cover bg-no-repeat bg-bottom  relative md:mt-32 x-sm:mt-24'>
         <div
           className='absolute h-full w-full'
           style={{
