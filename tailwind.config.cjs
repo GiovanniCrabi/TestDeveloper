@@ -19,7 +19,10 @@ module.exports = {
     },
     clipPath: {
       mypolygon: "polygon(0 0, 100% 0, 100% 61%, 84% 100%, 0 100%, 0% 50%)",
-      mypolygonImage: 'polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 40%)'
+      mypolygonImage: 'polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 40%)',
+      menuHamburguer: 'polygon(0 0, 100% 0%, 100% 100%, 8% 100%)',
+      circleRight: 'circle(0% at 50%);',
+      circleLeft: 'circle(50% at 0%);'
     },
     letterSpacing: {
       widest: '.2em',
@@ -28,6 +31,20 @@ module.exports = {
       fontFamily: ['Sora', 'sans-serif']
     },
     extend: {
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
       backgroundImage: {
         'image4': "url('/assets/image-4.png')"
       },
@@ -51,5 +68,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwind-clip-path'),],
+    require('tailwind-clip-path'),
+  ],
+    
 }

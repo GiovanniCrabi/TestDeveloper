@@ -1,3 +1,5 @@
+import { Button } from "../components/Button"
+
 export const headerLinks = [
   {
     id: 'business Plan',
@@ -43,7 +45,7 @@ export const CardsDetails = [
     input: 'Read more'
   },
 
-  /* {
+  {
     background: '/rectangle2.png',
     button: {
       name: 'Resources',
@@ -59,19 +61,158 @@ export const CardsDetails = [
     background: '/rectangle3.png',
     button: {
       name: 'news',
-      color: '#D38325',
+      color: "yellow.500",
     },
     data: '24/02/2022',
     title: 'Convene an International Partnership for development.',
     content: 'Helping nations achieve Net Zero and creating new commercial opportunities',
     input: 'Read more'
   },
-  
+
   {
     background: '/rectangle4.png',
     data: '24/02/2022',
     title: 'Convene an International Partnership for development.',
     content: 'Helping nations achieve Net Zero and creating new commercial opportunities',
     input: 'Read more'
-  }, */
+  },
 ]
+
+export const cardSliders = [
+  {
+    id: 1,
+    url: 'url("/image4.jpg")',
+    background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
+    title: 'THE GLOBAL CHALLENGE 1',
+    subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
+    content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
+  },
+
+  {
+    id: 2,
+    url: 'url("/image4.jpg")',
+    background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
+    title: 'THE GLOBAL CHALLENGE 1',
+    subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
+    content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
+  },
+
+  {
+    id: 3,
+    url: 'url("/image4.jpg")',
+    background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
+    title: 'THE GLOBAL CHALLENGE 1',
+    subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
+    content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
+  },
+
+  {
+    id: 4,
+    url: 'url("/image4.jpg")',
+    background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
+    title: 'THE GLOBAL CHALLENGE 1',
+    subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
+    content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
+  },
+
+  {
+    id: 5,
+    url: 'url("/image4.jpg")',
+    background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
+    title: 'THE GLOBAL CHALLENGE 1',
+    subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
+    content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
+  },
+
+  {
+    id: 6,
+    url: 'url("/image4.jpg")',
+    background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
+    title: 'THE GLOBAL CHALLENGE 1',
+    subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
+    content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
+  },
+]
+
+import apple from '../assets/appleLogo.png';
+import tesla from '../assets/tesla-logo.png';
+import samsung from '../assets/samsungLogo.png';
+
+export const marks = [
+  {
+    name: 'aplle',
+    logo: apple
+  },
+  {
+    name: 'tesla',
+    logo: tesla
+  },
+  {
+    name: 'samsung',
+    logo: samsung
+  },
+  {
+    name: 'aplle',
+    logo: apple
+  },
+  {
+    name: 'tesla',
+    logo: tesla
+  },
+  {
+    name: 'samsung',
+    logo: samsung
+  },
+  {
+    name: 'aplle',
+    logo: apple
+  },
+  {
+    name: 'tesla',
+    logo: tesla
+  },
+  {
+    name: 'samsung',
+    logo: samsung
+  },
+  {
+    name: 'aplle',
+    logo: apple
+  },
+  {
+    name: 'tesla',
+    logo: tesla
+  },
+  {
+    name: 'samsung',
+    logo: samsung
+  },
+]
+
+export const navigationItems = [
+  {
+    name: 'Business Plan',
+    link: '/'
+  },
+  {
+    name: 'About us',
+    link: '/'
+  },
+  {
+    name: 'Technology',
+    link: '/'
+  },
+  {
+    name: 'Investor Relations',
+    link: '/'
+  },
+  {
+    name: 'News & Resources',
+    link: '/'
+  },
+] 
+
+
+
+
+

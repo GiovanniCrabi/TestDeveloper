@@ -1,7 +1,4 @@
-import { ArrowLeft, ArrowRight, IconProps } from "phosphor-react";
-import React, { ReactNode } from "react";
-
-type IconType = (props: IconProps) => JSX.Element;
+import  { ReactNode } from "react";
 
 interface ArrowButtomProps {
   icon: ReactNode
@@ -9,7 +6,7 @@ interface ArrowButtomProps {
 
 export function ArrowButtom({icon}:ArrowButtomProps) {
   return (
-    <button className="text-white w-16 h-16 border grid place-items-center">
+    <button className="text-white w-16 h-16 border grid place-items-center hover:bg-blue transition-colors hover:border-none">
       {icon}
     </button>
   )
