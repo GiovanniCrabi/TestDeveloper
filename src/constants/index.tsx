@@ -2,6 +2,8 @@ import apple from '../assets/appleLogo.png';
 import tesla from '../assets/tesla-logo.png';
 import samsung from '../assets/samsungLogo.png';
 
+import img4 from '../assets/image4.jpg'
+
 
 export const headerLinks = [
   {
@@ -64,7 +66,7 @@ export const CardsDetails = [
     background: '/rectangle3.png',
     button: {
       name: 'news',
-      color: "yellow.500",
+      color: '#d38325',
     },
     data: '24/02/2022',
     title: 'Convene an International Partnership for development.',
@@ -84,7 +86,7 @@ export const CardsDetails = [
 export const cardSliders = [
   {
     id: 1,
-    url: 'url("/image4.jpg")',
+    url: img4,
     background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
     title: 'THE GLOBAL CHALLENGE 1',
     subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
@@ -93,7 +95,7 @@ export const cardSliders = [
 
   {
     id: 2,
-    url: 'url("/image4.jpg")',
+    url: img4,
     background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
     title: 'THE GLOBAL CHALLENGE 1',
     subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
@@ -102,7 +104,7 @@ export const cardSliders = [
 
   {
     id: 3,
-    url: 'url("/image4.jpg")',
+    url: img4,
     background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
     title: 'THE GLOBAL CHALLENGE 1',
     subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
@@ -111,7 +113,7 @@ export const cardSliders = [
 
   {
     id: 4,
-    url: 'url("/image4.jpg")',
+    url: img4,
     background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
     title: 'THE GLOBAL CHALLENGE 1',
     subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
@@ -120,7 +122,7 @@ export const cardSliders = [
 
   {
     id: 5,
-    url: 'url("/image4.jpg")',
+    url: img4,
     background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
     title: 'THE GLOBAL CHALLENGE 1',
     subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',
@@ -129,7 +131,7 @@ export const cardSliders = [
 
   {
     id: 6,
-    url: 'url("/image4.jpg")',
+    url: img4,
     background: "linear-gradient(38.77deg, #1F376A 28.03%, rgba(31, 55, 106, 0) 77.19%)",
     title: 'THE GLOBAL CHALLENGE 1',
     subTitle: 'Climate change and the pressures on global energy resources are urgent problems.',

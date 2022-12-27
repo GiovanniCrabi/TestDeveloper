@@ -40,7 +40,6 @@ export function CardsCarousel() {
     }
   }
 
-
   return (
     <>
       <h1 className='text-white text-5xl leading-[63px] md:pl-28 x-sm:pl-12 md:mt-36 x-sm:mt-20'>Media</h1>
@@ -60,7 +59,7 @@ export function CardsCarousel() {
                     }}
                   >
                     <div className="mt-5 pl-5">
-                      <div className={`h-9 w-min bg-${cards.button?.color} rounded-full px-4 py-2 flex justify-center items-center`}>
+                      <div className={`h-9 w-min bg-[${cards.button?.color}] rounded-full px-4 py-2 flex justify-center items-center`}>
                         <h1 className="text-white text-center text-xs font-bold uppercase tracking-widest"> {cards.button?.name} </h1>
                       </div>
 
@@ -81,8 +80,6 @@ export function CardsCarousel() {
           })}
         </div>
 
-
-
         <div className='z-30 md:pl-28 x-sm:pl-5 space-x-2.5 md:mt-8 x-sm:mt-5 '>
           <SwiperButtonPrev>
             <ArrowButtom icon={<ArrowLeft />} />
@@ -92,8 +89,6 @@ export function CardsCarousel() {
             <ArrowButtom icon={<ArrowRight />} />
           </SwiperButtonNext>
         </div>
-
-
       </Slider>
     </>
   )

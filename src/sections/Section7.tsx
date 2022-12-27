@@ -1,8 +1,6 @@
 import { BsTwitter } from "react-icons/bs";
 
-import frameworkLogo from '../assets/framework.png';
 import { navigationItems } from "../constants";
-
 
 export function Section7() {
   return (

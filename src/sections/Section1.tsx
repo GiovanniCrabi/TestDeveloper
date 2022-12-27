@@ -3,7 +3,7 @@ import { Header } from "../components/Header";
 
 import image1 from '../assets/image-1.png';
 import image2 from '../assets/image-2.png';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "../components/Button";
 
 export function Section1() {
@@ -27,14 +27,15 @@ export function Section1() {
 
           <div className='w-full flex flex-col items-center text-center absolute'>
             <div className='x-sm:w-80 md:w-full'>
-              <h1 className='text-white x-sm:text-5xl md:text-8xl font-normal md:mt-[22rem] x-sm:mt-44'>Welcome to StarForm</h1>
+              <h1  className='text-white x-sm:text-5xl md:text-8xl font-normal md:mt-[22rem] x-sm:mt-44'>Welcome to StarForm</h1>
               <p className='text-white x-sm:text-lg md:text-xl mt-3 z-50'>Helping nations achieve <span className='text-transparent bg-clip-text bg-yellow.100'>Lower emissions with Star-Based Solar Technology </span></p>
             </div>
 
             <a className='text-white text-3xl md:mt-52 x-sm:mt-48' >
               <ArrowCircleDown
+                weight="thin"
                 onClick={() => setOpen(!open)}
-                className="cursor-pointer" />
+                className={`cursor-pointer ${!open ? 'animate-bounce w-9 h-9' : ''}`} />
             </a>
           </div>
         </div>
@@ -57,7 +58,5 @@ export function Section1() {
         </div>
       </div>
     </>
-
-
   )
 }

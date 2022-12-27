@@ -1,12 +1,15 @@
 import 'swiper/css/navigation';
 import { Slide, Slider, SliderProps } from './index';
 
-import {  ArrowCircleLeft, ArrowCircleRight } from 'phosphor-react';
+import { ArrowLeft, ArrowRight } from 'phosphor-react';
+
+import img4 from '../../assets/image4.jpg'
 
 import { useSwiper } from 'swiper/react';
 import { ReactNode } from 'react';
 import { cardSliders } from '../../constants';
 import { Button } from '../Button';
+import { CircleButtom } from '../CircleButton';
 
 type ButtonProps = {
   children: ReactNode;
@@ -37,7 +40,8 @@ export function SlidesCarousel() {
       {cardSliders.map((card) => {
         return (
           <Slide key={card.id}>
-            <div className={`h-[54rem] w-full bg-[${card.url}] bg-cover bg-no-repeat bg-bottom  relative md:mt-32 x-sm:mt-24`}>
+            <div className={`h-[54rem] w-full relative md:mt-32 x-sm:mt-24`}>
+              <img src={card.url} className='w-full h-full bg-cover bg-no-repeat bg-bottom absolute' />
               <div
                 className='absolute h-full w-full'
                 style={{
@@ -54,26 +58,19 @@ export function SlidesCarousel() {
                       title='Business Plan'
                     />
                   </div>
-
                 </div>
-
               </div>
             </div>
-            <div className='absolute bottom-24 space-x-28'>
-            <SwiperButtonPrev>
-                <ArrowCircleLeft size={36} className='text-white hover:text-yellow.100 ease-out duration-300' weight='thin' />
+            <div className='absolute bottom-[6.3rem] space-x-32'>
+              <SwiperButtonPrev>
+                <CircleButtom icon={<ArrowLeft />} />
               </SwiperButtonPrev>
 
               <SwiperButtonNext>
-                <ArrowCircleRight size={36} className='text-white  hover:text-yellow.100 ease-out duration-300' weight='thin' />
+                <CircleButtom icon={<ArrowRight />} />
               </SwiperButtonNext>
             </div>
-           
-
-          
           </Slide>
-
-
         )
       })}
     </Slider>
