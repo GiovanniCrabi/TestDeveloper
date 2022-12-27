@@ -1,4 +1,7 @@
-import { Button } from "../components/Button"
+import apple from '../assets/appleLogo.png';
+import tesla from '../assets/tesla-logo.png';
+import samsung from '../assets/samsungLogo.png';
+
 
 export const headerLinks = [
   {
@@ -133,10 +136,6 @@ export const cardSliders = [
     content: 'The UK has set out an ambitious national clean energy policy – Net Zero – to fully decarbonise the economy by 2050. This future energy scenario requires clean and sustainable energy generation from renewable sources.',
   },
 ]
-
-import apple from '../assets/appleLogo.png';
-import tesla from '../assets/tesla-logo.png';
-import samsung from '../assets/samsungLogo.png';
 
 export const marks = [
   {

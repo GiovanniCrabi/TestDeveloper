@@ -7,7 +7,7 @@ import { CardsDetails } from "../constants";
 export function Section5() {
 
   return (
-    <div className='w-full h-full x-sm:h-full overflow-hidden'>
+    <div className='w-full h-full x-sm:h-full overflow-hidden bg-red-600'>
       <h1 className='text-white text-5xl leading-[63px] md:pl-28 x-sm:pl-5 mt-20'>Media</h1>
       <div className='w-full md:pl-28 x-sm:px-6 md:mt-12 x-sm:mt-7 flex x-sm:justify-center md:justify-start md:space-x-5 x-sm:space-x-2.5'>
         {CardsDetails.map((cards) => {

@@ -5,7 +5,7 @@ import image3 from '../assets/image-3.png';
 
 export function Section2() {
   return (
-    <div className='x-sm:px-6 md:px-0 flex md:flex-row x-sm:flex-col-reverse overflow-hidden items-center md:mt-36 x-sm:mt-32'   >
+    <div className='x-sm:px-6 md:px-0 flex md:flex-row x-sm:flex-col-reverse overflow-hidden items-center md:mt-36 x-sm:mt-32 md:space-x-4 x-sm:space-x-0'>
       <div className='md:w-[49%] md:pl-28 md:mt-2 x-sm:mt-10'>
         <h1 className='md:text-base x-sm:text-sm text-yellow-500 uppercase tracking-widest'>The Global Challenge</h1>
         <h1 className='text-white md:text-5xl x-sm:text-3xl md:leading-[4rem] x-sm:leading-10 text-left mt-5'> Climate change and the pressures on global energy resources are urgent problems. </h1>
