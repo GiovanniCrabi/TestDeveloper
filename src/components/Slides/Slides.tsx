@@ -3,8 +3,6 @@ import { Slide, Slider, SliderProps } from './index';
 
 import { ArrowLeft, ArrowRight } from 'phosphor-react';
 
-import img4 from '../../assets/image4.jpg'
-
 import { useSwiper } from 'swiper/react';
 import { ReactNode } from 'react';
 import { cardSliders } from '../../constants';
@@ -61,13 +59,13 @@ export function SlidesCarousel() {
                 </div>
               </div>
             </div>
-            <div className='absolute bottom-[6.3rem] space-x-32'>
+            <div className='absolute bottom-[2rem] space-x-32'> 
               <SwiperButtonPrev>
                 <CircleButtom icon={<ArrowLeft />} />
               </SwiperButtonPrev>
-
+                
               <SwiperButtonNext>
-                <CircleButtom icon={<ArrowRight />} />
+                <CircleButtom  icon={<ArrowRight />} />
               </SwiperButtonNext>
             </div>
           </Slide>

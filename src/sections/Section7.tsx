@@ -1,12 +1,20 @@
+import { useState } from "react";
 import { BsTwitter } from "react-icons/bs";
 
 import { navigationItems } from "../constants";
 
 export function Section7() {
+
   return (
     <section className="w-full md:h-[28rem] x-sm:h-full absolute">
       <div className="flex md:flex-row x-sm:flex-col justify-between md:mt-20 x-sm:mt-12 md:px-28 x-sm:px-6">
-        <h1 className='text-gray-50 x-sm:text-base md:text-2xl bold'>Start<span className='font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow.gradient1 to-yellow.gradient2'>Form</span></h1>
+        <div className="flex justify-between ">
+          <h1 className='text-gray-50 x-sm:text-base md:text-2xl bold'>Start<span className='font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow.gradient1 to-yellow.gradient2'>Form</span></h1>
+
+          <a href="https://twitter.com/" className="md:hidden x-sm:block mr-3" >
+            <BsTwitter size={20} className="md:mt-0 text-white x-sm:mt-0 md:self-auto x-sm:self-end x-sm:absolute md:relative " />
+          </a>
+        </div>
 
         <div className="md:mt-0 x-sm:mt-16 space-y-5">
           <div>
@@ -72,7 +80,7 @@ export function Section7() {
             </div>
           </span>
         </div>
-        <a href="https://twitter.com/">
+        <a href="https://twitter.com/" className="md:block x-sm:hidden" >
           <BsTwitter size={20} className="md:mt-0 text-white x-sm:mt-0 md:self-auto x-sm:self-end x-sm:absolute md:relative " />
         </a>
       </div>

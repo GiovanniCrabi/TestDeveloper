@@ -21,8 +21,8 @@ module.exports = {
       mypolygon: "polygon(0 0, 100% 0, 100% 61%, 84% 100%, 0 100%, 0% 50%)",
       mypolygonImage: 'polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 40%)',
       menuHamburguer: 'polygon(0 0, 100% 0%, 100% 100%, 8% 100%)',
-      circleRight: 'circle(0% at 50%);',
-      circleLeft: 'circle(50% at 0%);'
+      circleRight: 'inset(0 23% 0 0)',
+      circleLeft:  'ellipse(42% 42% at 78% 51%)'
     },
     letterSpacing: {
       widest: '.2em',

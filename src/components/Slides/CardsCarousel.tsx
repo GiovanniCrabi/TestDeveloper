@@ -68,7 +68,7 @@ export function CardsCarousel() {
                         <h1 className="md:w-[22rem] x-sm:w-72 mt-3 text-white text-2xl font-normal ">{cards.title}</h1>
                         <p className="md:max-w-sm x-sm:max-w-[17rem] font-normal md:w-[22rem] x-sm:w-80 md:text-base x-sm:text-lg text-white opacity-60 md:mt-5 x-sm:mt-3  ">{cards.content}</p>
                         <button className="flex items-center mt-16 space-x-1.5">
-                          <h1 className="text-white uppercase text-sm font-medium tracking-[0.3em]">{cards.input}</h1>
+                          <h1 className="text-white uppercase text-sm font-medium tracking-[0.3em]">{cards.input} </h1>
                           <ArrowRight size={14} className="text-yellow.100" />
                         </button>
                       </div>
@@ -80,7 +80,7 @@ export function CardsCarousel() {
           })}
         </div>
 
-        <div className='z-30 md:pl-28 x-sm:pl-5 space-x-2.5 md:mt-8 x-sm:mt-5 '>
+        <div className='z-30 md:pl-28 x-sm:pl-6 space-x-2.5 md:mt-24 x-sm:mt-5 '>
           <SwiperButtonPrev>
             <ArrowButtom icon={<ArrowLeft />} />
           </SwiperButtonPrev>
